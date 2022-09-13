@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-canvas",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Ruri Rizal",
+  "type": "commonjs",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node ./bin/www",
+    "dev": "cross-env NODE_ENV=development nodemon ./bin/www --ext js,pug "
+  },
+  "dependencies": {
+    "canvas": "^2.10.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "^3.0.2",
+    "uninstall": "^0.0.0"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.23.0",
+    "livereload": "^0.9.3",
+    "nodemon": "^2.0.19"
+  }
+}
